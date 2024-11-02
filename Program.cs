@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode.LeetCodes.Easy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            RunTwoSumExample();
+            //RunTwoSumExample();
+            RunCircularSentence();
         }
 
         #region TwoSum
@@ -23,6 +25,19 @@ namespace LeetCode
             int[] result = twoSum.TwoSum(nums, target);
 
             Console.WriteLine($"Índices encontrados: {result[0]}, {result[1]}");
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region CircularSentence
+        static void RunCircularSentence()
+        {
+            CircularSentenceClass cirucularSentence = new CircularSentenceClass();
+            string text = "leetcode exercises sound delightful";
+
+            bool result = cirucularSentence.CircularSentence(text);
+
+            Console.WriteLine(result);
             Console.ReadLine();
         }
         #endregion

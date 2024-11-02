@@ -11,9 +11,12 @@ namespace LeetCode.LeetCodes.Easy
 
         public bool CircularSentence(string text)
         {
-            string[] textSplit = text.Split(',');
+            string[] textSplit = text.Split(' ');
 
-            Console.WriteLine(textSplit);
+            foreach (string s in textSplit)
+            {
+                Console.WriteLine(s);
+            }
 
             return false;
         }
