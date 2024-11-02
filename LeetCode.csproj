@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LeetCodes\TwoSum.cs" />
+    <Compile Include="LeetCodes\Easy\CircularSentence.cs" />
+    <Compile Include="LeetCodes\Easy\TwoSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -13,6 +13,7 @@ namespace LeetCode
             RunTwoSumExample();
         }
 
+        #region TwoSum
         static void RunTwoSumExample()
         {
             var twoSum = new TwoSumClass();
@@ -24,5 +25,6 @@ namespace LeetCode
             Console.WriteLine($"Índices encontrados: {result[0]}, {result[1]}");
             Console.ReadLine();
         }
+        #endregion
     }
 }
