@@ -12,7 +12,8 @@ namespace LeetCode
         static void Main(string[] args)
         {
             //RunTwoSumExample();
-            RunCircularSentence();
+            //RunCircularSentence();
+            RotateString();
         }
 
         #region TwoSum
@@ -49,7 +50,7 @@ namespace LeetCode
             string text = "abcde";
             string goal = "cdeab";
 
-            string result = rotateString.RotateString(text, goal);
+            bool result = rotateString.RotateString(text, goal);
 
             Console.WriteLine(result);
             Console.ReadLine();
