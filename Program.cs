@@ -41,5 +41,18 @@ namespace LeetCode
             Console.ReadLine();
         }
         #endregion
+
+        #region RotateString
+        static void RotateString()
+        {
+            RotateStringClass rotateString = new RotateStringClass();
+            string text = "abcde";
+
+            string result = rotateString.RotateString(text);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
     }
 }
