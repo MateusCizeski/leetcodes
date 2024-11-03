@@ -47,8 +47,9 @@ namespace LeetCode
         {
             RotateStringClass rotateString = new RotateStringClass();
             string text = "abcde";
+            string goal = "cdeab";
 
-            string result = rotateString.RotateString(text);
+            string result = rotateString.RotateString(text, goal);
 
             Console.WriteLine(result);
             Console.ReadLine();

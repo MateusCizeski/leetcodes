@@ -8,7 +8,7 @@ namespace LeetCode.LeetCodes.Easy
 {
     public class RotateStringClass
     {
-        public string RotateString(string text)
+        public string RotateString(string text, string goal)
         {
             return null;
         }
