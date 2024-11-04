@@ -13,7 +13,8 @@ namespace LeetCode
         {
             //RunTwoSumExample();
             //RunCircularSentence();
-            RotateString();
+            //RotateString();
+            PalindromeNumber();
         }
 
         #region TwoSum
@@ -51,6 +52,19 @@ namespace LeetCode
             string goal = "cdeab";
 
             bool result = rotateString.RotateString(text, goal);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region PalindromeNumber
+        static void PalindromeNumber()
+        {
+            PalindromeNumberClass palindromeNumber = new PalindromeNumberClass();
+            int number = 121;
+
+            bool result = palindromeNumber.PalindromeNumber(number);
 
             Console.WriteLine(result);
             Console.ReadLine();

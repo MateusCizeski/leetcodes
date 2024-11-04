@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LeetCodes\Easy\CircularSentence.cs" />
+    <Compile Include="LeetCodes\Easy\PalindromeNumber.cs" />
     <Compile Include="LeetCodes\Easy\RotateString.cs" />
     <Compile Include="LeetCodes\Easy\TwoSum.cs" />
     <Compile Include="Program.cs" />
