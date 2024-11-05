@@ -14,7 +14,8 @@ namespace LeetCode
             //RunTwoSumExample();
             //RunCircularSentence();
             //RotateString();
-            PalindromeNumber();
+            //PalindromeNumber();
+            LongestCommonPrefix();
         }
 
         #region TwoSum
@@ -75,7 +76,7 @@ namespace LeetCode
         static void LongestCommonPrefix()
         {
             LongestCommonPrefixClass longestCommonPrefix = new LongestCommonPrefixClass();
-            string[] strs = ["flower", "flow", "flight"];
+            string[] strs = new string[] { "abrir", "abastecer", "abrigo" };
 
             string result = longestCommonPrefix.LongestCommonPrefix(strs);
 
