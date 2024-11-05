@@ -70,5 +70,18 @@ namespace LeetCode
             Console.ReadLine();
         }
         #endregion
+
+        #region LongestCommonPrefix
+        static void LongestCommonPrefix()
+        {
+            LongestCommonPrefixClass longestCommonPrefix = new LongestCommonPrefixClass();
+            string[] strs = ["flower", "flow", "flight"];
+
+            string result = longestCommonPrefix.LongestCommonPrefix(strs);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
     }
 }
