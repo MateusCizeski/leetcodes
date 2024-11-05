@@ -62,7 +62,7 @@ namespace LeetCode
         static void PalindromeNumber()
         {
             PalindromeNumberClass palindromeNumber = new PalindromeNumberClass();
-            int number = 121;
+            int number = 123;
 
             bool result = palindromeNumber.PalindromeNumber(number);
 
