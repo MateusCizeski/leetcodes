@@ -15,7 +15,8 @@ namespace LeetCode
             //RunCircularSentence();
             //RotateString();
             //PalindromeNumber();
-            LongestCommonPrefix();
+            //LongestCommonPrefix();
+            RomanToInteger();
         }
 
         #region TwoSum
@@ -79,6 +80,19 @@ namespace LeetCode
             string[] strs = new string[] { "abrir", "abastecer", "abrigo" };
 
             string result = longestCommonPrefix.LongestCommonPrefix(strs);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region RomanToInteger
+        static void RomanToInteger()
+        {
+            RomanToIntegerClass romanToInteger = new RomanToIntegerClass();
+            string s = "III";
+
+            int result = romanToInteger.RomanToInteger(s);
 
             Console.WriteLine(result);
             Console.ReadLine();
