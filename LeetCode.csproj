@@ -49,6 +49,7 @@
     <Compile Include="LeetCodes\Easy\RomanToInteger.cs" />
     <Compile Include="LeetCodes\Easy\RotateString.cs" />
     <Compile Include="LeetCodes\Easy\TwoSum.cs" />
+    <Compile Include="LeetCodes\Easy\ValidParentheses.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

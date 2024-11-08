@@ -1,9 +1,5 @@
 ﻿using LeetCode.LeetCodes.Easy;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LeetCode
 {
@@ -16,7 +12,7 @@ namespace LeetCode
             //RotateString();
             //PalindromeNumber();
             //LongestCommonPrefix();
-            RomanToInteger();
+            //RomanToInteger();
         }
 
         #region TwoSum
@@ -93,6 +89,19 @@ namespace LeetCode
             string s = "IV";
 
             int result = romanToInteger.RomanToInteger(s);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region ValidParentheses
+        static void ValidParentheses()
+        {
+            ValidParenthesesClass validParentheses = new ValidParenthesesClass();
+            string s = "()[]{}";
+
+            bool result = validParentheses.ValidParentheses(s);
 
             Console.WriteLine(result);
             Console.ReadLine();
