@@ -90,7 +90,7 @@ namespace LeetCode
         static void RomanToInteger()
         {
             RomanToIntegerClass romanToInteger = new RomanToIntegerClass();
-            string s = "III";
+            string s = "IV";
 
             int result = romanToInteger.RomanToInteger(s);
 
