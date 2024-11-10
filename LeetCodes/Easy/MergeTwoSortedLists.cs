@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace LeetCode.LeetCodes.Easy
 {
@@ -6,9 +8,16 @@ namespace LeetCode.LeetCodes.Easy
     {
         public List<int> MergeTwoLists(List<int> list1, List<int> list2)
         {
-            List<int> lista = new List<int> { 1, 2, 4 };
+            List<int> combinedList = list1.Concat(list2).ToList();
 
-            return lista;
+            combinedList.Sort();
+
+            foreach (int i in combinedList) 
+            {
+                Console.WriteLine(i);
+            }
+
+            return combinedList;
         }
     }
 }
