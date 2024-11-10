@@ -13,6 +13,7 @@ namespace LeetCode
             //PalindromeNumber();
             //LongestCommonPrefix();
             //RomanToInteger();
+            ValidParentheses();
         }
 
         #region TwoSum
@@ -99,7 +100,7 @@ namespace LeetCode
         static void ValidParentheses()
         {
             ValidParenthesesClass validParentheses = new ValidParenthesesClass();
-            string s = "()[]{}";
+            string s = "([]{})";
 
             bool result = validParentheses.ValidParentheses(s);
 
