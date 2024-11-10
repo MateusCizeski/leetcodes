@@ -1,5 +1,6 @@
 ﻿using LeetCode.LeetCodes.Easy;
 using System;
+using System.Collections.Generic;
 
 namespace LeetCode
 {
@@ -13,7 +14,8 @@ namespace LeetCode
             //PalindromeNumber();
             //LongestCommonPrefix();
             //RomanToInteger();
-            ValidParentheses();
+            //ValidParentheses();
+            MergeTwoSortedLists();
         }
 
         #region TwoSum
@@ -103,6 +105,20 @@ namespace LeetCode
             string s = "([]{})";
 
             bool result = validParentheses.ValidParentheses(s);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region MergeTwoSortedLists
+        static void MergeTwoSortedLists()
+        {
+            MergeTwoSortedListsClass mergeTwoSortedLists = new MergeTwoSortedListsClass();
+            List<int> list1 = new List<int> { 1, 2, 4 };
+            List<int> list2 = new List<int> { 1, 3, 4 };
+
+            List<int> result = mergeTwoSortedLists.MergeTwoLists(list1, list2);
 
             Console.WriteLine(result);
             Console.ReadLine();
