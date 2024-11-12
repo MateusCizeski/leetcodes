@@ -15,7 +15,9 @@ namespace LeetCode
             //LongestCommonPrefix();
             //RomanToInteger();
             //ValidParentheses();
-            MergeTwoSortedLists();
+            //MergeTwoSortedLists();
+            RemoveDuplicatesSortedArray();
+
         }
 
         #region TwoSum
@@ -119,6 +121,19 @@ namespace LeetCode
             List<int> list2 = new List<int> { 1, 3, 4 };
 
             List<int> result = mergeTwoSortedLists.MergeTwoLists(list1, list2);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region RemoveDuplicatesSortedArray
+        static void RemoveDuplicatesSortedArray()
+        {
+            RemoveDuplicatesSortedArrayClass removeDuplicatesSortedArray = new RemoveDuplicatesSortedArrayClass();
+            int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+
+            int[] result = removeDuplicatesSortedArray.RemoveDuplicatesSortedArray(nums);
 
             Console.WriteLine(result);
             Console.ReadLine();

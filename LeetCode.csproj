@@ -47,6 +47,7 @@
     <Compile Include="LeetCodes\Easy\LongestCommonPrefix.cs" />
     <Compile Include="LeetCodes\Easy\MergeTwoSortedLists.cs" />
     <Compile Include="LeetCodes\Easy\PalindromeNumber.cs" />
+    <Compile Include="LeetCodes\Easy\RemoveDuplicatesSortedArray.cs" />
     <Compile Include="LeetCodes\Easy\RomanToInteger.cs" />
     <Compile Include="LeetCodes\Easy\RotateString.cs" />
     <Compile Include="LeetCodes\Easy\TwoSum.cs" />
