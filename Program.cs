@@ -133,7 +133,7 @@ namespace LeetCode
             RemoveDuplicatesSortedArrayClass removeDuplicatesSortedArray = new RemoveDuplicatesSortedArrayClass();
             int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
 
-            int[] result = removeDuplicatesSortedArray.RemoveDuplicatesSortedArray(nums);
+            int result = removeDuplicatesSortedArray.RemoveDuplicatesSortedArray(nums);
 
             Console.WriteLine(result);
             Console.ReadLine();
