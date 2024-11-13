@@ -16,7 +16,7 @@ namespace LeetCode
             //RomanToInteger();
             //ValidParentheses();
             //MergeTwoSortedLists();
-            RemoveDuplicatesSortedArray();
+            //RemoveDuplicatesSortedArray();
 
         }
 
@@ -134,6 +134,19 @@ namespace LeetCode
             int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
 
             int result = removeDuplicatesSortedArray.RemoveDuplicatesSortedArray(nums);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region RemoveElement
+        static void RemoveElement()
+        {
+            RemoveElementClass removeElement = new RemoveElementClass();
+            int[] nums = { 3, 2, 2, 3 };
+
+            int result = removeElement.RemoveElement(nums);
 
             Console.WriteLine(result);
             Console.ReadLine();
