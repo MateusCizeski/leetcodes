@@ -17,6 +17,7 @@ namespace LeetCode
             //ValidParentheses();
             //MergeTwoSortedLists();
             //RemoveDuplicatesSortedArray();
+            RemoveElement();
 
         }
 
@@ -145,8 +146,9 @@ namespace LeetCode
         {
             RemoveElementClass removeElement = new RemoveElementClass();
             int[] nums = { 3, 2, 2, 3 };
+            int val = 3;
 
-            int result = removeElement.RemoveElement(nums);
+            int result = removeElement.RemoveElement(nums, val);
 
             Console.WriteLine(result);
             Console.ReadLine();
