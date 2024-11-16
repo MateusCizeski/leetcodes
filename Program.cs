@@ -154,5 +154,19 @@ namespace LeetCode
             Console.ReadLine();
         }
         #endregion
+
+        #region FirstOccurrenceString
+        static void FirstOccurrenceString()
+        {
+            FirstOccurrenceStringClass firstOccurrenceString = new FirstOccurrenceStringClass();
+            string haystack = "sadbutsad";
+            string needle = "sad";
+
+            int result = firstOccurrenceString.FirstOccurrenceString(haystack, needle);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
     }
 }
