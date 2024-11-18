@@ -17,7 +17,8 @@ namespace LeetCode
             //ValidParentheses();
             //MergeTwoSortedLists();
             //RemoveDuplicatesSortedArray();
-            RemoveElement();
+            //RemoveElement();
+            FirstOccurrenceString();
 
         }
 
