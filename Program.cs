@@ -169,5 +169,18 @@ namespace LeetCode
             Console.ReadLine();
         }
         #endregion
+
+        #region SearchInsertPosition
+        static void SearchInsertPosition()
+        {
+            SearchInsertPositionClass searchInsertPositionClass = new SearchInsertPositionClass();
+            int[] nums = { 1, 3, 5, 6 };
+
+            int result = searchInsertPositionClass.SearchInsertPosition(nums);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
     }
 }
