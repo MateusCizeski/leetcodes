@@ -18,7 +18,8 @@ namespace LeetCode
             //MergeTwoSortedLists();
             //RemoveDuplicatesSortedArray();
             //RemoveElement();
-            FirstOccurrenceString();
+            //FirstOccurrenceString();
+            SearchInsertPosition();
 
         }
 
@@ -175,8 +176,9 @@ namespace LeetCode
         {
             SearchInsertPositionClass searchInsertPositionClass = new SearchInsertPositionClass();
             int[] nums = { 1, 3, 5, 6 };
+            int target = 7;
 
-            int result = searchInsertPositionClass.SearchInsertPosition(nums);
+            int result = searchInsertPositionClass.SearchInsertPosition(nums, target);
 
             Console.WriteLine(result);
             Console.ReadLine();
