@@ -19,7 +19,8 @@ namespace LeetCode
             //RemoveDuplicatesSortedArray();
             //RemoveElement();
             //FirstOccurrenceString();
-            SearchInsertPosition();
+            //SearchInsertPosition();
+            LengthLastWord();
 
         }
 
@@ -179,6 +180,19 @@ namespace LeetCode
             int target = 7;
 
             int result = searchInsertPositionClass.SearchInsertPosition(nums, target);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region LengthLastWord
+        static void LengthLastWord()
+        {
+            LengthLastWordClass LengthLastWordClass = new LengthLastWordClass();
+            string s = "Hello World";
+
+            int result = LengthLastWordClass.LengthLastWord(s);
 
             Console.WriteLine(result);
             Console.ReadLine();

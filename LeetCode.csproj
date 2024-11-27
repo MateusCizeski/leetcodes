@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="LeetCodes\Easy\CircularSentence.cs" />
     <Compile Include="LeetCodes\Easy\FirstOccurrenceString.cs" />
+    <Compile Include="LeetCodes\Easy\LengthLastWord.cs" />
     <Compile Include="LeetCodes\Easy\LongestCommonPrefix.cs" />
     <Compile Include="LeetCodes\Easy\MergeTwoSortedLists.cs" />
     <Compile Include="LeetCodes\Easy\PalindromeNumber.cs" />
