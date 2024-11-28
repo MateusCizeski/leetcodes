@@ -190,7 +190,7 @@ namespace LeetCode
         static void LengthLastWord()
         {
             LengthLastWordClass LengthLastWordClass = new LengthLastWordClass();
-            string s = "Hello World";
+            string s = "luffy is still joyboy";
 
             int result = LengthLastWordClass.LengthLastWord(s);
 
