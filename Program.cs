@@ -198,5 +198,18 @@ namespace LeetCode
             Console.ReadLine();
         }
         #endregion
+
+        #region PlusOne
+        static void PlusOne()
+        {
+            PlusOneClass plusOneClass = new PlusOneClass();
+            int[] nums = { 1, 2, 3};
+
+            int[] result = plusOneClass.PlusOne(nums);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
     }
 }

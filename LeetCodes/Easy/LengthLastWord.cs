@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace LeetCode.LeetCodes.Easy
+﻿namespace LeetCode.LeetCodes.Easy
 {
     public class LengthLastWordClass
     {
