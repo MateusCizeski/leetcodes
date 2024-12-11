@@ -5,3 +5,10 @@ C:\desenvMateus\LeetCode\bin\Debug\LeetCode.exe
 C:\desenvMateus\LeetCode\bin\Debug\LeetCode.pdb
 C:\desenvMateus\LeetCode\obj\Debug\LeetCode.exe
 C:\desenvMateus\LeetCode\obj\Debug\LeetCode.pdb
+C:\Desenvolvimento\leetcodes\bin\Debug\LeetCode.exe.config
+C:\Desenvolvimento\leetcodes\bin\Debug\LeetCode.exe
+C:\Desenvolvimento\leetcodes\bin\Debug\LeetCode.pdb
+C:\Desenvolvimento\leetcodes\obj\Debug\LeetCode.csproj.AssemblyReference.cache
+C:\Desenvolvimento\leetcodes\obj\Debug\LeetCode.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\leetcodes\obj\Debug\LeetCode.exe
+C:\Desenvolvimento\leetcodes\obj\Debug\LeetCode.pdb

@@ -20,7 +20,8 @@ namespace LeetCode
             //RemoveElement();
             //FirstOccurrenceString();
             //SearchInsertPosition();
-            LengthLastWord();
+            //LengthLastWord();
+            PlusOne();
 
         }
 
@@ -203,11 +204,11 @@ namespace LeetCode
         static void PlusOne()
         {
             PlusOneClass plusOneClass = new PlusOneClass();
-            int[] nums = { 1, 2, 3};
+            int[] nums = { 4, 3, 2, 1 };
 
             int[] result = plusOneClass.PlusOne(nums);
 
-            Console.WriteLine(result);
+            Console.WriteLine("Resultado: " + string.Join(",", result));
             Console.ReadLine();
         }
         #endregion
