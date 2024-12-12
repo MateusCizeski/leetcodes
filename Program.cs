@@ -21,7 +21,8 @@ namespace LeetCode
             //FirstOccurrenceString();
             //SearchInsertPosition();
             //LengthLastWord();
-            PlusOne();
+            //PlusOne();
+            AddBinary();
 
         }
 
@@ -209,6 +210,20 @@ namespace LeetCode
             int[] result = plusOneClass.PlusOne(nums);
 
             Console.WriteLine("Resultado: " + string.Join(",", result));
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region AddBinary
+        static void AddBinary()
+        {
+            AddBinaryClass binaryClass = new AddBinaryClass();
+            string a = "11";
+            string b = "1";
+
+            string result = binaryClass.AddBinary(a, b);
+
+            Console.WriteLine(result);
             Console.ReadLine();
         }
         #endregion

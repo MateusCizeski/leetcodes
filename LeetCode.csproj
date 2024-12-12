@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LeetCodes\Easy\AddBinary.cs" />
     <Compile Include="LeetCodes\Easy\CircularSentence.cs" />
     <Compile Include="LeetCodes\Easy\FirstOccurrenceString.cs" />
     <Compile Include="LeetCodes\Easy\LengthLastWord.cs" />
