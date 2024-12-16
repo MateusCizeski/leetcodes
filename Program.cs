@@ -22,7 +22,8 @@ namespace LeetCode
             //SearchInsertPosition();
             //LengthLastWord();
             //PlusOne();
-            AddBinary();
+            //AddBinary();
+            Sqrt();
 
         }
 
@@ -222,6 +223,19 @@ namespace LeetCode
             string b = "1011";
 
             string result = binaryClass.AddBinary(a, b);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region SqrtX
+        static void Sqrt()
+        {
+            SqrtxClass sqrtxClass = new SqrtxClass();
+            int x = 4;
+
+            int result = sqrtxClass.MySqrt(x);
 
             Console.WriteLine(result);
             Console.ReadLine();
