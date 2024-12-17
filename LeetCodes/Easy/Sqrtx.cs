@@ -6,25 +6,30 @@ namespace LeetCode.LeetCodes.Easy
     {
         public int MySqrt(int x)
         {
-            double low = 0;
-            double precisao = 0.00001;
-            double mid = 0;
+            if (x == 0 || x == 1) return x;
 
-            while ((x - low) > precisao)
+            int low = 1, high = x, resposta = 0;
+
+            while (low <= high)
             {
-                mid = (low + x) / 2;
-                double quadrado = mid * mid;
+                int mid = low + (high - low) / 2;
+                long quadrado = (long)mid * mid;
 
-                if (Math.Abs(quadrado - x) <= precisao)
-                    return (int)mid;
+                if (quadrado == x)
+                    return mid;
 
                 if (quadrado < x)
-                    low = mid; 
+                {
+                    resposta = mid;
+                    low = mid + 1;
+                }
                 else
-                    x = (int)mid;
+                {
+                    high = mid - 1;
+                }
             }
 
-            return (int)mid;
+            return resposta;
         }
     }
 }
