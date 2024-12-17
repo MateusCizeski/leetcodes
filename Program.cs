@@ -233,7 +233,7 @@ namespace LeetCode
         static void Sqrt()
         {
             SqrtxClass sqrtxClass = new SqrtxClass();
-            int x = 4;
+            int x = 8;
 
             int result = sqrtxClass.MySqrt(x);
 
