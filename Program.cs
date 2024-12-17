@@ -241,5 +241,18 @@ namespace LeetCode
             Console.ReadLine();
         }
         #endregion
+
+        #region ClimbStairs
+        static void ClimbStairs()
+        {
+            ClimbStairsClass climbStairs = new ClimbStairsClass();
+            int x = 2;
+
+            int result = climbStairs.ClimbStairs(x);
+
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
     }
 }

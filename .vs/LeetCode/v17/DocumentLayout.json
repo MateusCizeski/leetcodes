@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Desenvolvimento\\leetcodes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|C:\\Desenvolvimento\\leetcodes\\leetcodes\\easy\\sqrtx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|solutionrelative:leetcodes\\easy\\sqrtx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|c:\\desenvolvimento\\leetcodes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Sqrtx.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\leetcodes\\LeetCodes\\Easy\\Sqrtx.cs",
-              "RelativeDocumentMoniker": "LeetCodes\\Easy\\Sqrtx.cs",
-              "ToolTip": "C:\\Desenvolvimento\\leetcodes\\LeetCodes\\Easy\\Sqrtx.cs",
-              "RelativeToolTip": "LeetCodes\\Easy\\Sqrtx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T23:18:15.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\leetcodes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Desenvolvimento\\leetcodes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAANoAAAAAAAAAAAAswOwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOgAAAAAAAAAAAA1wPgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T22:41:33.091Z",
               "EditorCaption": ""
