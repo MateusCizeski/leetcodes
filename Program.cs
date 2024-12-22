@@ -23,7 +23,8 @@ namespace LeetCode
             //LengthLastWord();
             //PlusOne();
             //AddBinary();
-            Sqrt();
+            //Sqrt();
+            RemoveDuplicateSortedList();
 
         }
 
@@ -251,6 +252,19 @@ namespace LeetCode
             int result = climbStairs.ClimbStairs(x);
 
             Console.WriteLine(result);
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region RemoveDuplicateSortedList
+        static void RemoveDuplicateSortedList()
+        {
+            RemoveDuplicateSortedList removeDuplicateSortedList = new RemoveDuplicateSortedList();
+            List<int> head = new List<int> { 1, 1, 2, 3, 3 };
+
+            List<int> result = removeDuplicateSortedList.DeleteDuplicates(head);
+
+            Console.WriteLine("Resultado: " + string.Join(", ", result));
             Console.ReadLine();
         }
         #endregion

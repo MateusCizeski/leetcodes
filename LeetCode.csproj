@@ -52,6 +52,7 @@
     <Compile Include="LeetCodes\Easy\MergeTwoSortedLists.cs" />
     <Compile Include="LeetCodes\Easy\PalindromeNumber.cs" />
     <Compile Include="LeetCodes\Easy\PlusOne.cs" />
+    <Compile Include="LeetCodes\Easy\RemoveDuplicateSortedList.cs" />
     <Compile Include="LeetCodes\Easy\RemoveDuplicatesSortedArray.cs" />
     <Compile Include="LeetCodes\Easy\RemoveElement.cs" />
     <Compile Include="LeetCodes\Easy\RomanToInteger.cs" />
