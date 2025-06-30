@@ -47,6 +47,7 @@
     <Compile Include="LeetCodes\Easy\CircularSentence.cs" />
     <Compile Include="LeetCodes\Easy\ClimbStairs.cs" />
     <Compile Include="LeetCodes\Easy\FirstOccurrenceString.cs" />
+    <Compile Include="LeetCodes\Easy\IsPalindrome.cs" />
     <Compile Include="LeetCodes\Easy\LengthLastWord.cs" />
     <Compile Include="LeetCodes\Easy\LongestCommonPrefix.cs" />
     <Compile Include="LeetCodes\Easy\MergeSortedArray.cs" />

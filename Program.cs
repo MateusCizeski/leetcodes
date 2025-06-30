@@ -24,7 +24,8 @@ namespace LeetCode
             //PlusOne();
             //AddBinary();
             //Sqrt();
-            RemoveDuplicateSortedList();
+            //RemoveDuplicateSortedList();
+            IsPalindrome();
 
         }
 
@@ -257,30 +258,55 @@ namespace LeetCode
         #endregion
 
         #region RemoveDuplicateSortedList
-        static void RemoveDuplicateSortedList()
-        {
-            RemoveDuplicateSortedList removeDuplicateSortedList = new RemoveDuplicateSortedList();
-            List<int> head = new List<int> { 1, 1, 2, 3, 3 };
+        //static void RemoveDuplicateSortedList()
+        //{
+        //    RemoveDuplicateSortedList removeDuplicateSortedList = new RemoveDuplicateSortedList();
+        //    List<int> head = new List<int> { 1, 1, 2, 3, 3 };
 
-            List<int> result = removeDuplicateSortedList.DeleteDuplicates(head);
+        //    List<int> result = removeDuplicateSortedList.DeleteDuplicates(head);
 
-            Console.WriteLine("Resultado: " + string.Join(", ", result));
-            Console.ReadLine();
-        }
+        //    Console.WriteLine("Resultado: " + string.Join(", ", result));
+        //    Console.ReadLine();
+        //}
         #endregion
 
         #region MergeArrays
-        static void MergeSortedArray()
+        //static void MergeSortedArray()
+        //{
+        //    MergeSortedArray mergeSortedArray = new MergeSortedArray();
+        //    int[] nums1 = { 1, 2, 3, 0, 0, 0 };
+        //    int m = 3;
+        //    int[] nums2 = { 2, 5, 6 };
+        //    int n = 3;
+
+        //    int result = mergeSortedArray.Merge(nums1, m, nums2, n);
+
+        //    Console.WriteLine(result);
+        //    Console.ReadLine();
+        //}
+        #endregion
+
+        #region IsPalindrome
+        static void IsPalindrome()
         {
-            MergeSortedArray mergeSortedArray = new MergeSortedArray();
-            int[] nums1 = { 1, 2, 3, 0, 0, 0 };
-            int m = 3;
-            int[] nums2 = { 2, 5, 6 };
-            int n = 3;
+            IsPalindromeClass isPalindromeClass = new IsPalindromeClass();
+            var testCases = new Dictionary<string, bool>
+                {
+                    { "A man, a plan, a canal: Panama", true },
+                    { "race a car", false },
+                    { " ", true },
+                    { "No lemon, no melon", true },
+                    { "Was it a car or a cat I saw?", true },
+                    { "12321", true },
+                    { "12345", false }
+                };
 
-            int result = mergeSortedArray.Merge(nums1, m, nums2, n);
+            foreach (var testCase in testCases)
+            {
+                bool result = isPalindromeClass.IsPalindrome(testCase.Key);
+                Console.WriteLine($"Input: \"{testCase.Key}\" → Output: {result} (Expected: {testCase.Value})");
+            }
 
-            Console.WriteLine(result);
             Console.ReadLine();
         }
         #endregion
