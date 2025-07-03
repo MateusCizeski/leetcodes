@@ -25,7 +25,8 @@ namespace LeetCode
             //AddBinary();
             //Sqrt();
             //RemoveDuplicateSortedList();
-            IsPalindrome();
+            //IsPalindrome();
+            LetterCombinationsSolver();
 
         }
 
@@ -271,19 +272,19 @@ namespace LeetCode
         #endregion
 
         #region MergeArrays
-        //static void MergeSortedArray()
-        //{
-        //    MergeSortedArray mergeSortedArray = new MergeSortedArray();
-        //    int[] nums1 = { 1, 2, 3, 0, 0, 0 };
-        //    int m = 3;
-        //    int[] nums2 = { 2, 5, 6 };
-        //    int n = 3;
+        static void MergeSortedArray()
+        {
+            MergeSortedArray mergeSortedArray = new MergeSortedArray();
+            int[] nums1 = { 1, 2, 3, 0, 0, 0 };
+            int m = 3;
+            int[] nums2 = { 2, 5, 6 };
+            int n = 3;
 
-        //    int result = mergeSortedArray.Merge(nums1, m, nums2, n);
+            mergeSortedArray.Merge(nums1, m, nums2, n);
 
-        //    Console.WriteLine(result);
-        //    Console.ReadLine();
-        //}
+            Console.WriteLine(string.Join(", ", nums1));
+            Console.ReadLine();
+        }
         #endregion
 
         #region IsPalindrome
@@ -307,6 +308,18 @@ namespace LeetCode
                 Console.WriteLine($"Input: \"{testCase.Key}\" → Output: {result} (Expected: {testCase.Value})");
             }
 
+            Console.ReadLine();
+        }
+        #endregion
+
+        #region LetterCombinationsSolver
+        static void LetterCombinationsSolver()
+        {
+            var letterPhone = new LetterCombinationsSolver();
+            var combinations = letterPhone.LetterCombinations("23");
+
+
+            Console.WriteLine(string.Join(", ", combinations));
             Console.ReadLine();
         }
         #endregion

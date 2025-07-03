@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|c:\\desenvolvimento\\leetcodes\\leetcodes\\easy\\ispalindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|solutionrelative:leetcodes\\easy\\ispalindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|c:\\desenvolvimento\\leetcodes\\leetcodes\\easy\\lettercombinationsphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|solutionrelative:leetcodes\\easy\\lettercombinationsphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|c:\\desenvolvimento\\leetcodes\\leetcodes\\easy\\mergesortedarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{150F5253-1E72-48FA-A8BA-532E77B9FE53}|LeetCode.csproj|solutionrelative:leetcodes\\easy\\mergesortedarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IsPalindrome.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\leetcodes\\LeetCodes\\Easy\\IsPalindrome.cs",
-              "RelativeDocumentMoniker": "LeetCodes\\Easy\\IsPalindrome.cs",
-              "ToolTip": "C:\\Desenvolvimento\\leetcodes\\LeetCodes\\Easy\\IsPalindrome.cs",
-              "RelativeToolTip": "LeetCodes\\Easy\\IsPalindrome.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Title": "LetterCombinationsPhone.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\leetcodes\\LeetCodes\\Easy\\LetterCombinationsPhone.cs",
+              "RelativeDocumentMoniker": "LeetCodes\\Easy\\LetterCombinationsPhone.cs",
+              "ToolTip": "C:\\Desenvolvimento\\leetcodes\\LeetCodes\\Easy\\LetterCombinationsPhone.cs",
+              "RelativeToolTip": "LeetCodes\\Easy\\LetterCombinationsPhone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T23:42:12.761Z",
+              "WhenOpened": "2025-07-03T23:24:20.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MergeSortedArray.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\leetcodes\\LeetCodes\\Easy\\MergeSortedArray.cs",
+              "RelativeDocumentMoniker": "LeetCodes\\Easy\\MergeSortedArray.cs",
+              "ToolTip": "C:\\Desenvolvimento\\leetcodes\\LeetCodes\\Easy\\MergeSortedArray.cs",
+              "RelativeToolTip": "LeetCodes\\Easy\\MergeSortedArray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T23:20:40.726Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Desenvolvimento\\leetcodes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABABAAAAAAAAAAAswDIBAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T17:15:15.472Z",
               "EditorCaption": ""

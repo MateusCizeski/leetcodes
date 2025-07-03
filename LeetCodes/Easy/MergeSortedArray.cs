@@ -2,6 +2,8 @@
 {
     public class MergeSortedArray
     {
+        //complexidade temporal O(m + n) cada elemente do array é processado extamente uma vez
+        //complexidade espacial O(1) o algoritmo não usa memória extra significativa
         public void Merge(int[] nums1, int m, int[] nums2, int n)
         {
             int i = m - 1;

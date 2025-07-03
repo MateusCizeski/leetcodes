@@ -49,6 +49,7 @@
     <Compile Include="LeetCodes\Easy\FirstOccurrenceString.cs" />
     <Compile Include="LeetCodes\Easy\IsPalindrome.cs" />
     <Compile Include="LeetCodes\Easy\LengthLastWord.cs" />
+    <Compile Include="LeetCodes\Easy\LetterCombinationsPhone.cs" />
     <Compile Include="LeetCodes\Easy\LongestCommonPrefix.cs" />
     <Compile Include="LeetCodes\Easy\MergeSortedArray.cs" />
     <Compile Include="LeetCodes\Easy\MergeTwoSortedLists.cs" />
